@@ -33,8 +33,8 @@ By default, a speed test will be run every hour. The user can manually run a spe
 
 ## Polling interval
 
-By default, the integration will ping the device every 30 seconds. 
-If you wish to do a ping at a different interval, you can disable the automatic refresh in the integration's system options (Enable polling for updates) and create your own automation with your desired frequency.
+By default, the integration will do a speed test via Fast.com ever hour. 
+If you wish to do at a different interval, you can disable the automatic refresh in the integration's system options (Enable polling for updates) and create your own automation with your desired frequency.
 
 For more detailed steps on how to define a custom interval, follow the procedure below.
 
