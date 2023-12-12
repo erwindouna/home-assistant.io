@@ -31,6 +31,17 @@ By default, a speed test will be run every hour. The user can manually run a spe
 
 {% include integrations/config_flow.md %}
 
+## Polling interval
+
+By default, the integration will ping the device every 30 seconds. 
+If you wish to do a ping at a different interval, you can disable the automatic refresh in the integration's system options (Enable polling for updates) and create your own automation with your desired frequency.
+
+For more detailed steps on how to define a custom interval, follow the procedure below.
+
+### Defining a custom polling interval
+
+{% include common-tasks/define_custom_polling.md %}
+
 ## Notes
 
 - When running on Raspberry Pi 3 or older, the maximum speed is limited by its 100 Mbit/s LAN adapter.
